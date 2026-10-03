@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local datasets / generated files
+*.csv
+*.zip
+data/
+datasets/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Local secrets / environment files
+.env
+.env.*
